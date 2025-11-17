@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            width: 100vw;
+            height: 20vh;
+        }
+        h1 {
+            margin: 0;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            width: auto;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mapa Sensible</h1>
+    </header>
+    <main>
+        <img src="España.png" alt="Mapa de España" usemap="#MapaEspaña">
+        <map name="MapaEspaña">
+            <area shape="rect" coords="354,235,423,611" href="https://es.wikipedia.org/wiki/Portugal" alt="Portugal" title="Portugal">
+            <area shape="poly" coords="414,96,343,141,356,231,490,236,460,213,425,613,541,711,760,657,907,494,1017,285,1080,199" href="https://es.wikipedia.org/wiki/España" alt="España" title="España">
+            <area shape="rect" coords="804,2,1269,163" href="https://es.wikipedia.org/wiki/Francia" alt="Francia" title="Francia">
+            <area shape="circle" coords="1081,419,50" href="https://es.wikipedia.org/wiki/Italia" alt="Baleares" title="Baleares">
+            <area shape="circle" coords="920,750,40" href="https://es.wikipedia.org/wiki/Canarias" alt="Canarias" title="Canarias">
+            <area shape="poly" coords="970,187,970,195,977,194,988,186,975,180,969,185" href="https://es.wikipedia.org/wiki/Andorra" alt="Andorra" title="Andorra">
+        </map>
+    </main>
+
+    
+
+           

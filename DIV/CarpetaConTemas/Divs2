@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio de Divs</title>
+  <style>
+        .div-rojo {
+            border: 3px solid black;
+            background-color: rgb(170, 50, 50);
+            height: 10vh;
+            width: 60vw;
+            box-sizing: border-box;
+            border-radius: 20%;
+            justify-content: center;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        /* contenedor para los 3 círculos: centra horizontal y verticalmente */
+        .contenedor-circulos {
+            width: 100%;
+            display: flex;
+            justify-content: center; /* centra horizontalmente los elementos */
+            align-items: center;     /* centra verticalmente los elementos dentro del contenedor */
+            gap: 2vw;                /* separación entre círculos */
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+
+        /* estilos comunes para los círculos */
+        .div-verde,
+        .div-amarillo,
+        .div-azul {
+            border: 3px solid black;
+            box-sizing: border-box;
+            height: 20vh;
+            width: 20vw;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 0 0 auto; /* tamaño fijo dentro del flex */
+        }
+
+        .div-verde {
+            background-color: lightgreen;
+        }
+
+        .div-amarillo {
+            background-color: rgb(198, 216, 38);
+            /* ya está centrado por el contenedor flex; no usar float ni margin auto aquí */
+        }
+
+        .div-azul {
+            background-color: lightblue;
+        }
+
+        .div-morado
+        {
+            border: 3px solid black;
+            box-sizing: border-box;
+            background-color: lightblue;
+            height: 60vh;
+            width: 30vw;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 20%;
+        }
+        .div-marron
+        {
+            border: 3px solid black;
+            box-sizing: border-box;
+            background-color: rgb(236, 145, 41);
+            height: 60vh;
+            width: 60vw;
+            display: flex;
+            border-radius: 20%;
+            justify-content: center;
+            align-items: center;
+        }
+        
+  </style>
+</head>
+<body>
+  <div class="div-rojo">
+      <marquee behavior="scroll" direction="right">Este es un párrafo dentro de un div.</marquee>
+  </div>
+
+  <div class="contenedor-circulos">
+    <div class="div-verde"></div>
+    <div class="div-amarillo"></div>
+    <div class="div-azul"></div>
+  </div>
+
+</body>
+</html>

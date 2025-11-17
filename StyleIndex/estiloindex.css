@@ -1,0 +1,141 @@
+*{
+            background-color: rgb(209, 203, 203);
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+            
+        }
+        /*CSS del h1*/
+        h1{
+            font-size: 40px;
+            background-color: rgb(182, 182, 171);
+            
+           
+        }
+
+        /*CSS del h2*/
+        h2{
+            font-size: 15px;
+            justify-content: center;
+            text-align: center;
+        }
+        /*CSS de la cabezera*/
+        header {
+            text-align: center;
+            margin-bottom: 0px;
+            justify-content: center;    
+            display: flex;
+            border: 3px solid rgb(121, 117, 117);
+            background-color: rgb(51, 51, 51);
+        }
+        /*CSS de nav*/
+        nav {
+            border: 3px solid rgb(121, 117, 117);
+            box-sizing: border-box;
+            display: flex;
+            width: 100vw;
+            height: 20vh;
+        /*CSS del contenido principal*/
+        }
+        main{
+            margin: 0;
+            padding: 0px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            float: right;
+            border: 3px solid rgb(121, 117, 117);
+            box-sizing: border-box;
+            width: 65vw;
+            height: 100vh;
+        }
+        /*CSS del aside*/
+        aside{
+            display: flex;
+            border: 3px solid rgb(121, 117, 117);
+            width: 30vw;
+            height: 100vh;
+            float: left;  
+            flex-direction: column;
+            align-items: center;
+        }
+        a:hover{
+            background-color: rgb(117, 117, 117);
+            text-decoration: none;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+        }
+        
+        nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        background-color: gray;
+        }
+        footer {
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(102, 102, 97);
+        border: 3px solid black;
+        width: 100%;
+        box-sizing: border-box;
+        position: fixed;
+        bottom: 0;}
+        a{
+        text-decoration: none;
+        color: black;
+        background-color: lightgrey ;
+        }
+        main ul {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 10px;
+        width: 100%; 
+        img{
+        width: 15px;
+        height: 15px;
+        margin-top: auto;
+        }
+        }
+        summary{
+        font-size: 15px;
+        
+        
+        }
+        /*CSS de los enlaces*/
+        .div-enlaces {
+        border: 3px solid black;
+        box-sizing: border-box;
+        background-color: lightgrey;
+        display: inline-block; 
+        height: 10vh;
+        width: 20vw;
+        border-radius: 10px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center; 
+        margin-top: 20px; 
+        }
+        /*CSS de las unidades*/
+        .a-temas {
+        text-decoration: none;
+        color: black;
+        border: 3px solid black;
+        margin-top: 10px;
+        padding: 10px;
+        display: inline-block; 
+        width: auto; 
+        border-radius: 10px;
+        }

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head style="color: burlywood;">
+    <!--Todo lo de aqui dentro es el nombre de la pagina, es decir la parte de head-->
+        <title>Mi primera Web</title>
+        <style> 
+    
+        </style>
+    </head>
+    <!--A partir de aqui todo lo que se ponga estara en la web-->
+    <body style="color: burlywood;">
+        
+        <h1 style="color: pink;font-size: 22px; font-family: 'Courier New', Courier, monospace;">Esta es mi primera cabezera</h1>
+        <!--Estos son los links-->
+        <a href="https://www.w3schools.com/">Esta pagina ofrece tutoriales faciles</a> <br>
+        <a href="https://www.w3.org/">Esta es la web W3C que queria poner</a> <br>
+        <a href="https://validator.w3.org/">Esta es la W3Calidator</a>
+        <!--Todo esto de abajo es la tabla-->
+        <style>
+        table, th, td {
+        border: 3px solid blue;
+        border-collapse: collapse;}
+         .apw{font-family: sans-serif;
+            background-color:pink; 
+            color: darkgreen;
+            font-size: 20px;
+            
+           } 
+           .SASP{
+            font-family: sans-serif;
+            background-color: aqua;
+            color: blueviolet;
+            font-size: 20px;
+           }
+           .SOR{
+            font-family: sans-serif;
+            background-color: rgb(33, 187, 141, 0.719);
+            color: rgb(36, 19, 184);
+            font-size: 20px;
+           }
+           .SER{
+            font-family: sans-serif;
+            background-color: rgba(187, 33, 105, 0.719);
+            color: rgb(127, 23, 148);
+            font-size: 20px;
+           }
+           .IPEII{
+            font-family: sans-serif;
+            background-color: rgba(230, 169, 40, 0.719);
+            color: rgb(226, 80, 12);
+            font-size: 20px;
+           }
+           .MME{
+            font-family: sans-serif;
+            background-color: rgba(153, 31, 106, 0.719);
+            color: rgb(92, 34, 8);
+            font-size: 20px;
+           }
+        </style>
+        <table style="width: 700px;height: 50px;">
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td class="hora">8:30 - 9:25</td>
+            <td class="SASP">SASP<br>(Julia Sánchez Jiménez)</td>
+            <td>OPT<br>(Encarnación Balsera Quintana)</td>
+            <td class="SOR">SOR<br>(Manuel Manchado Moraga)</td>
+            <td class="SER">SER<br>(María Soledad Casado Sanz)</td>
+            <td class="MME">MME<br>(Julia Sánchez Jiménez)</td>
+        </tr>
+        <tr>
+            <td class="hora">9:25 - 10:20</td>
+            <td class="SOR">SOR<br>(Manuel Manchado Moraga)</td>
+            <td class="apw">APW<br>(María Soledad Casado Sanz)</td>
+            <td class="SER">SER<br>(María Soledad Casado Sanz)</td>
+            <td class="">DASP<br>(María Soledad Casado Sanz)</td>
+            <td>MME<br>(Julia Sánchez Jiménez)</td>
+        </tr>
+        <tr>
+            <td class="recreo">10:20 - 10:40</td>
+            <td class="recreo" colspan="5">RECREO</td>
+        </tr>
+        <tr>
+            <td class="hora">10:40 - 11:35</td>
+            <td class="merged" rowspan="2">SOR<br>(Manuel Manchado Moraga)</td>
+            <td class="apw" class="merged" rowspan="2">APW<br>(María Soledad Casado Sanz)</td>
+            <td class="merged" rowspan="2">SER<br>(María Soledad Casado Sanz)</td>
+            <td>IPEII<br>(María Soledad Casado Sanz)</td>
+            <td class="merged" rowspan="2">MME<br>(Julia Sánchez Jiménez)</td>
+        </tr>
+        <tr>
+            <td class="hora">11:35 - 12:30</td>
+            <td>OPT<br>(Encarnación Balsera Quintana)</td>
+        </tr>
+        <tr>
+            <td class="recreo">12:30 - 12:40</td>
+            <td class="recreo" colspan="5">RECREO</td>
+        </tr>
+        <tr>
+            <td class="hora">12:40 - 13:35</td>
+            <td>SER<br>(María Soledad Casado Sanz)</td>
+            <td class="merged" rowspan="2">MME<br>(Julia Sánchez Jiménez)</td>
+            <td>MME<br>(Julia Sánchez Jiménez)</td>
+            <td class="apw">APW<br>(María Soledad Casado Sanz)</td>
+            <td>OPT<br>(Encarnación Balsera Quintana)</td>
+        </tr>
+        <tr>
+            <td class="hora">13:35 - 14:30</td>
+            <td>IPEII<br>(María Soledad Casado Sanz)</td>
+            <td>SOR<br>(Manuel Manchado Moraga)</td>
+            <td>PI<br>(María Soledad Casado Sanz)</td>
+            <td class="apw">APW<br>(María Soledad Casado Sanz)</td>
+        </tr>
+    </table>
+        
+    <!--Fin de la tabla-->
+    <!--Lista-->
+    <h2>Lista de los mejores postres tipicos de España
+    </h2>
+    <ol>
+        <li>Arroz con leche</li>
+        <li>Torrijas</li>
+        <li>Natillas</li>
+        <li>Flan de la abuela</li>
+        <li>Crema catalana</li>
+        <li>Tarta de queso</li>
+        <li>Bizcocho</li>
+        <li>Tarta de galleta</li>
+    </ol>
+    <!--Fin de lista-->
+    <!--Segunda Lista-->
+    <h2>Top 5 juegos mas vendidos
+    </h2>
+    <ol>
+        <li>Tetris</li>
+        <li>Minecraft</li>
+        <li>Grand Theft Auto V</li>
+        <li>Wii Sports</li>
+        <li>PUBG</li>
+    </ol>
+    <!--Fin de la segunda lista-->
+    <h2 class="apw">¿Que es CSS?</h2>
+    <p>CSS, o Hojas de Estilo en Cascada, es un lenguaje de estilos que define la apariencia de los documentos HTML, como el color, la fuente, el tamaño, la posición y el diseño de una página web. Separa la estructura del contenido (HTML) de su presentación, lo que permite a los desarrolladores y diseñadores crear sitios web visualmente atractivos y consistentes, facilitando el mantenimiento y la flexibilidad del diseño. </p>
+    <img source="">
+    </body> 
+    <!--Esto es ya fuera del body-->
+    <h2>Imagen de este guapo de aquí llamado Ricardo morales</h2>
+     <p>
+        <img src="https://pbs.twimg.com/media/E-IDZfsX0BYPfdj.jpg:large" alt="Ricky" width="300" height="400"> <br>
+            Este es un parrafo y <br>
+            Esto es otro parrafo <br>
+            <p>
+                Mi video favorito:
+            </p>
+    <!--Video:-->    
+        <video width="400" height="400" controls>
+            <source src="video/ricky.mp4" type="video/mp4">
+    </video>
+    <!--Audio:-->
+    <p>
+        La mejor cancion del mundo:
+    </p>
+    <audio controls>
+        <source src="video/caliente.mp3" type="audio/mp3">
+    </audio>
+        <p style="font-size: 36px;color: red; font-family: 'Courier New', Courier, monospace;">CSS, o Hojas de Estilo en Cascada, es un lenguaje de estilos que define la apariencia de los documentos HTML, como el color, la fuente, el tamaño, la posición y el diseño de una página web. Separa la estructura del contenido (HTML) de su presentación, lo que permite a los desarrolladores y diseñadores crear sitios web visualmente atractivos y consistentes, facilitando el mantenimiento y la flexibilidad del diseño. </p>
+        <p>CSS, o Hojas de Estilo en Cascada, es un lenguaje de estilos que define la apariencia de los documentos HTML, como el color, la fuente, el tamaño, la posición y el diseño de una página web. Separa la estructura del contenido (HTML) de su presentación, lo que permite a los desarrolladores y diseñadores crear sitios web visualmente atractivos y consistentes, facilitando el mantenimiento y la flexibilidad del diseño. </p>
+
+</html>

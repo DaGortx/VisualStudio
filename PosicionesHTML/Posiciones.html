@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="Author" content="Pedro">
+    <meta name="Description" content="Página web con estructura básica de HTML5, incluyendo">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .cuadro{
+            width: 200px;
+            height: 200px;
+
+        }
+        .arriba-izquierda{
+            position:relative;
+            top: 50px;
+            background-color: rgba(189, 48, 48, 0.5);}
+        .derecha{
+            position: absolute;
+            background-color: rgba(25, 180, 25, 0.5);
+            right: calc(100vw - 200px);
+            top: 100vh;
+            margin-right: 0px;}
+        .footer{
+            width: 100vw;
+            height: 10vh;
+            background-color: rgb(193, 212, 15, 0.5);
+            margin-top: calc(100vh - 50px);
+        }
+        .hover-cuadroderecha:hover{
+            transition: all 1s ease-in-out;
+            background-color: rgba(188, 196, 78, 0.5);
+        }
+        .bola-rosa{
+            position:absolute;
+            background-color: pink;
+            width: 30vw;
+            height: 25vh;
+            border-radius: 50%;
+            top: calc(50vh - 50px);
+            left: calc(50vw - 50px);
+            right: calc(50vw - 50px);
+            bottom: calc(50vh - 50px);
+            transition: all 1s ease-in-out;
+            box-shadow: 0 0 20px;
+        }
+        .hover-azul:hover{
+            background-color: rgba(33, 33, 216, 0.5);
+            width: calc(30vw * 2);
+            height: calc(25vh *2 );
+            transition: all 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="cuadro arriba-izquierda"></div>
+    <div class="footer"></div>
+    <div class="bola-rosa hover-azul"></div>
+    <div class="cuadro derecha hover-cuadroderecha"> </div>
+</body>
+</html>
